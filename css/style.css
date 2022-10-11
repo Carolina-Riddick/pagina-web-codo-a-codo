@@ -35,3 +35,18 @@ ul.navbar li {
 #marca {
     text-align: center;
 }
+
+
+#contenido-principal{
+background-color: #e2966a;
+float: right;
+padding: 10px;
+margin-bottom: 10px;
+box-sizing: border-box;
+}
+
+#quienes-somos {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 16px;
+text-align: justify;
+}
