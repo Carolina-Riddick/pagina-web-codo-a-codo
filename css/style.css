@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(248, 255, 147) ;
+    background-color: rgb(255, 255, 255) ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -8,12 +8,30 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+p{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 ul.navbar {
     list-style: none;
-    background-color: orange;
+    background-color: #FCC5A5;
+    height: 40px ;
+    padding-top: 20px ;
 }
 
 ul.navbar a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(97, 97, 92);
+    font-weight: bold;
+}
+
+ul.navbar li {
+    display: inline-block;
+    width: 24% ;
+    text-align: center;
+}
+
+#marca {
+    text-align: center;
 }
