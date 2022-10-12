@@ -16,7 +16,7 @@ p{
 ul.navbar {
     list-style: none;
     background-color: #FCC5A5;
-    height: 40px ;
+    height: 80px ;
     padding-top: 20px ;
 }
 
@@ -30,18 +30,21 @@ ul.navbar li {
     display: inline-block;
     width: 24% ;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #marca {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 
 #contenido-principal{
 background-color: #e2966a;
+color: black;
 float: right;
-padding: 10px;
-margin-bottom: 10px;
+padding: 30px;
+margin-bottom: 20px;
 box-sizing: border-box;
 }
 
@@ -49,4 +52,44 @@ box-sizing: border-box;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size: 16px;
 text-align: justify;
+margin-bottom: 10px;
+}
+
+#nuestra-filosogia{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+
+}
+
+
+#razones{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 16px;
+text-align: justify;
+margin-bottom: 10px;
+}
+
+#datos{
+    background-color: rgb(0, 0, 0);
+    padding-left: 20px;
+}
+
+#datos p{
+    color: rgb(255, 255, 255);
+}
+
+#redes{
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;            
+}
+
+#botonera-footer{
+    color: rgb(254, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: justify;
 }
