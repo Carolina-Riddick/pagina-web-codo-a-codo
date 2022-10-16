@@ -15,14 +15,14 @@ p{
 
 ul.navbar {
     list-style: none;
-    background-color: #FCC5A5;
+    background-color: #e2966a;
     height: 80px ;
     padding-top: 20px ;
 }
 
 ul.navbar a {
     text-decoration: none;
-    color: rgb(97, 97, 92);
+    color: rgb(2, 2, 2);
     font-weight: bold;
 }
 
@@ -33,42 +33,53 @@ ul.navbar li {
     margin-bottom: 10px;
 }
 
-#marca {
-    text-align: center;
-    margin-bottom: 10px;
+form{
+    width: 900px;
+    padding:30px;
+    border-radius:10px;
+    margin-bottom: 20px;
+    background-color:#FCC5A5;
 }
 
+#marca{
+    text-align: center;
+}
+
+#marca img {
+    width: 150px;
+    margin-bottom: 10px;
+    position: static;
+}
 
 #contenido-principal{
-background-color: #e2966a;
+background-color: #FCC5A5;
 color: black;
 float: right;
 padding: 30px;
 margin-bottom: 20px;
 box-sizing: border-box;
+border-radius:10px;
 }
 
 #quienes-somos {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 16px;
 text-align: justify;
 margin-bottom: 10px;
 }
 
 #nuestra-filosogia{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     text-align: justify;
     margin-bottom: 10px;
-
 }
 
-
 #razones{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 16px;
-text-align: justify;
-margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
 }
 
 #datos{
@@ -81,15 +92,15 @@ margin-bottom: 10px;
 }
 
 #redes{
-        color: rgb(255, 255, 255);
-        background-color: rgb(0, 0, 0);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;            
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;          
 }
 
 #botonera-footer{
     color: rgb(254, 255, 255);
     background-color: rgb(0, 0, 0);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     text-align: justify;
 }
