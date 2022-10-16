@@ -41,14 +41,19 @@ form{
     background-color:#FCC5A5;
 }
 
-#marca{
+#marca img {
+    display: block;
+    width: 150px;
+    margin: auto;
+    position: static;
     text-align: center;
 }
 
-#marca img {
-    width: 150px;
-    margin-bottom: 10px;
-    position: static;
+.carrera {
+    border-radius:10px;
+    background-color:#FCC5A5;
+    padding: 15px;
+    margin: 15px;
 }
 
 #contenido-principal{
