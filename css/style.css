@@ -6,6 +6,13 @@ body {
 h1 {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+h2 {
+    margin: 20px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
 }
 
 p{
@@ -37,7 +44,7 @@ ul.navbar a:hover{
     color: white;
 }
 
-form{
+form {
     display: block;
     max-width: fit-content;
     padding:30px;
@@ -45,6 +52,7 @@ form{
     margin-bottom: 20px;
     background-color:#FCC5A5;
 }
+
 
 #marca img {
     display: block;
@@ -54,11 +62,27 @@ form{
     text-align: center;
 }
 
-.carrera {
+#imagenreposteria img {
+    max-width: 250px;
+    margin: 20px 10px 20px 20px;
+    padding: 20px 10px 30px 20px;
+    position: static;
+}
+
+.carrera1 {
+    display: inline-flex;
+}
+
+.carreras {
     border-radius:10px;
     background-color:#FCC5A5;
-    padding: 15px;
-    margin: 15px;
+    margin: 10px;
+}
+
+.carrera1 p {
+    padding: 0.5px 20px 20px 10px;
+    background-color: #FCC5A5;
+    margin: 0px 20px 20px 20px;
 }
 
 #contenido-principal{
@@ -113,4 +137,36 @@ margin-bottom: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     text-align: justify;
+}
+
+#recetas {
+    border-radius:10px;
+    background-color: #FCC5A5;
+    margin:10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+#navidenas {
+    background-color: aquamarine;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+#saludables {
+    background-color: palevioletred;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+#faciles {
+    background-color: red;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+#datos {
+    border-radius:10px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
