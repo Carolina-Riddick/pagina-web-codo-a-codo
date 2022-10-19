@@ -20,11 +20,14 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Diseño de la barra de menú*/
+
 ul.navbar {
     list-style: none;
     background-color: #e2966a;
-    height: 80px ;
-    padding-top: 20px ;
+    height: 50px ;
+    padding: 20px 10px 10px 10px;
+    position: static;
 }
 
 ul.navbar a {
@@ -38,11 +41,14 @@ ul.navbar li {
     width: 24% ;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 ul.navbar a:hover{
     color: white;
 }
+
+/*Diseño formulario*/
 
 form {
     display: block;
@@ -53,21 +59,26 @@ form {
     background-color:#FCC5A5;
 }
 
+/*Diseño de logo header*/
 
 #marca img {
     display: block;
-    width: 150px;
+    width: 90px;
     margin: auto;
     position: static;
     text-align: center;
 }
 
+/*Diseño imagenes de la seccion propuesta academica*/
+
 #imagenreposteria img {
     max-width: 250px;
-    margin: 20px 10px 20px 20px;
-    padding: 20px 10px 30px 20px;
+    margin: 0px 10px 20px 20px;
+    padding: 00px 10px 30px 20px;
     position: static;
 }
+
+/*Diseño de cajas seccion propuesta academica*/
 
 .carrera1 {
     display: inline-flex;
@@ -80,10 +91,12 @@ form {
 }
 
 .carrera1 p {
-    padding: 0.5px 20px 20px 10px;
+    padding: 0px 20px 20px 10px;
     background-color: #FCC5A5;
     margin: 0px 20px 20px 20px;
 }
+
+/*Diseño cajas seccion acerca de nosotros*/
 
 #contenido-principal{
 background-color: #FCC5A5;
@@ -131,13 +144,7 @@ margin-bottom: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;          
 }
 
-#botonera-footer{
-    color: rgb(254, 255, 255);
-    background-color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    text-align: justify;
-}
+/*Diseño seccion index*/
 
 #recetas {
     border-radius:10px;
@@ -169,4 +176,14 @@ margin-bottom: 10px;
     border-radius:10px;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
+}
+
+/*Diseño footer*/
+
+#botonera-footer{
+    color: rgb(254, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
 }
