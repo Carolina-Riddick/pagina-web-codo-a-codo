@@ -1,6 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255) ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -11,6 +10,7 @@ h1 {
 }
 
 h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 20px 20px 20px 20px;
     padding: 30px 20px 20px 20px;
 }
@@ -20,6 +20,17 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header {
+    width: 960px;
+}
+
+section {
+    width: 960px;
+}
+ 
+footer {
+    width: 960px;;
+}
 /*Diseño de la barra de menú*/
 
 ul.navbar {
@@ -31,6 +42,7 @@ ul.navbar {
 }
 
 ul.navbar a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: rgb(2, 2, 2);
     text-transform: uppercase;
@@ -38,10 +50,10 @@ ul.navbar a {
 
 ul.navbar li {
     display: inline-block;
-    width: 24% ;
+    width: 24%;
     text-align: center;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 10px;  
 }
 
 ul.navbar a:hover{
@@ -67,6 +79,11 @@ form {
     margin: auto;
     position: static;
     text-align: center;
+    transition: width 2s;
+}
+
+#marca img:hover {
+    width: 140px;
 }
 
 /*Diseño imagenes de la seccion propuesta academica*/
@@ -74,7 +91,7 @@ form {
 #imagenreposteria img {
     max-width: 250px;
     margin: 0px 10px 20px 20px;
-    padding: 00px 10px 30px 20px;
+    padding: 0px 10px 30px 20px;
     position: static;
 }
 
@@ -96,26 +113,40 @@ form {
     margin: 0px 20px 20px 20px;
 }
 
+#botoninscripcion {
+    background-color: red;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+}
+
+#botoninscripcion p {
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    margin-left: 500px; 
+    background-color: blue;
+}
+
 /*Diseño cajas seccion acerca de nosotros*/
 
-#contenido-principal{
-background-color: #FCC5A5;
-color: black;
-float: right;
-padding: 30px;
-margin-bottom: 20px;
-box-sizing: border-box;
-border-radius:10px;
+#contenido-principal {
+    width: 960px;
+    background-color: #FCC5A5;
+    color: black;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius:10px;
 }
 
 #quienes-somos {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 16px;
-text-align: justify;
-margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
 }
 
-#nuestra-filosogia{
+#nuestra-filosogia {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     text-align: justify;
@@ -177,6 +208,9 @@ margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
 }
+/*Logo whatsapp*/
+
+
 
 /*Diseño footer*/
 
@@ -186,4 +220,5 @@ margin-bottom: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     text-align: justify;
+    width: 960px;
 }
