@@ -97,6 +97,10 @@ form {
 
 /*Diseño de cajas seccion propuesta academica*/
 
+#academicas {
+    width: 960px;
+}
+
 .carrera1 {
     display: inline-flex;
 }
