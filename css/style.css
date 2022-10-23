@@ -22,23 +22,24 @@ p{
 
 header {
     width: 960px;
+    margin: auto;
 }
 
-section {
-    width: 960px;
-}
- 
 footer {
-    width: 960px;;
+    width: 960px; 
+    margin: auto;
+    padding: auto;
 }
+
 /*Diseño de la barra de menú*/
 
 ul.navbar {
     list-style: none;
     background-color: #e2966a;
-    height: 50px ;
+    height: 50px;
     padding: 20px 10px 10px 10px;
     position: static;
+    
 }
 
 ul.navbar a {
@@ -67,7 +68,7 @@ form {
     max-width: fit-content;
     padding:30px;
     border-radius:10px;
-    margin-bottom: 20px;
+    margin: auto;
     background-color:#FCC5A5;
 }
 
@@ -78,7 +79,6 @@ form {
     width: 90px;
     margin: auto;
     position: static;
-    text-align: center;
     transition: width 2s;
 }
 
@@ -99,6 +99,7 @@ form {
 
 #academicas {
     width: 960px;
+    margin: auto;
 }
 
 .carrera1 {
@@ -137,8 +138,8 @@ form {
     width: 960px;
     background-color: #FCC5A5;
     color: black;
+    margin: auto;
     padding: 30px;
-    margin-bottom: 20px;
     box-sizing: border-box;
     border-radius:10px;
 }
@@ -164,65 +165,94 @@ form {
     margin-bottom: 10px;
 }
 
-#datos{
-    background-color: rgb(0, 0, 0);
-    padding-left: 20px;
-}
 
-#datos p{
-    color: rgb(255, 255, 255);
-}
-
-#redes{
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;          
-}
 
 /*Diseño seccion index*/
 
 #recetas {
-    border-radius:10px;
+    width: 960px;
+    border-radius: 10px;
+    box-sizing: border-box;
     background-color: #FCC5A5;
-    margin:10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
-    
+    margin: auto;
+    padding: 30px;
 }
 
+
+/*
 #navidenas {
+
     background-color: aquamarine;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
+   
 }
 
 #saludables {
     background-color: palevioletred;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
+    
 }
 
 #faciles {
     background-color: red;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
+    
 }
+*/
 
-#datos {
-    border-radius:10px;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
-}
 /*Logo whatsapp*/
 
+#logowpp {
+    margin: auto;
+}
 
+#logowpp img {
+    width: 50px;
+    
+}
 
 /*Diseño footer*/
 
-#botonera-footer{
+#botonera-footer {
     color: rgb(254, 255, 255);
     background-color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     text-align: justify;
     width: 960px;
+}
+
+#datos {
+    background-color: rgb(0, 0, 0);
+    padding-left: 20px; 
+    border-radius:10px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+#datos p {
+    color: rgb(255, 255, 255);
+}
+ 
+#redes {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;          
+}
+
+#botonera_footer ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#botonera_footer ul li a img {
+    width: 30px;
+}
+
+
+/*Diseño Responsive Media Query*/
+/*Modo tableta*/
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    /*Copiar y pegar todo lo de arriba, borrar lo que esté repetido 
+    de estilo. 
+    Modificar tamaño de width*/
+
 }
