@@ -197,7 +197,7 @@ form {
 }
 
 .imagen img{
-    width: 550px;
+    width: 600px;
     margin: 0px 10px 20px 20px;
     padding: 0px;           
 }
@@ -222,7 +222,7 @@ form {
     text-align: center;
     font-size: 30px;
     font-style: oblique;
-    text-decoration: solid;
+    font-weight: bold;
 }
 
 #inscripciones a{
@@ -254,7 +254,7 @@ form {
     font-style: oblique;
     font-weight: bold;
     color: #9a5329;
-    text-decoration: solid;
+    font-weight: bold;
 }
 
 #imagen1{
@@ -267,15 +267,15 @@ form {
     background-size: cover;
 }
 
-#parrafo1 p{
-    font-size: 25px;
+#parrafo1{
+    font-size: 15px;
     width: 200;
     height: 300;
     margin-bottom: 10;
     padding: 15px;
-    box-sizing: border-box;
     text-align: justify;
-    float: right;
+    float: center;
+    font-weight: bold;
 }
 
 
@@ -283,12 +283,16 @@ form {
     width: 200 ;
     height: 300;
     background-color: #FCC5A5;
-    float:left;
+    float:center;
+    font-weight: bold;
     padding: 10px;
 }
 
-#parrafo2 p{
+#parrafo2{
+   font-size: 15px;
+   font-weight: bold;
    float: center;
+   text-align: justify;
 }
 
 #imagen2{
@@ -324,11 +328,13 @@ form {
     font-size: 15px;
     width: 300;
     height: 300;
-    /*margin-bottom: 10;
+    margin-bottom: 10;
     padding: 15px;
     box-sizing: border-box;
     text-align: justify;
-    float: center;*/
+    float:center;
+    font-weight: bold;
+
 }
 
 
@@ -342,16 +348,14 @@ form {
     background-size: cover;
 }
 
-#parrafo4 p{
+#parrafo4{
     font-size: 15px;
-    width: 300;
+    width: 200;
     height: 300;
-    /*margin-bottom: 10;
-    padding: 15px;*/
-    box-sizing: border-box;
-    text-align: justify;
+    font-weight: bold;
+    margin-bottom: 10;
+    padding: 15px;
     float: center;
-
 }
 
 #faciles {
@@ -360,6 +364,7 @@ form {
     background-color: #FCC5A5;
     float:center;
     padding: 10px;
+    font-weight: bold;
 }
 
 #imagen5{
@@ -370,16 +375,16 @@ form {
     margin-bottom: 5px;
     padding: .1px;
     background-size: cover;
+    
 }
 
 #parrafo5{
     font-size: 15px;
-    width: 300;
+    width: 200;
     height: 300;
-    /*margin-bottom: 10;
+    margin-bottom: 10;
     padding: 15px;
-    text-align: right;*/
-    float: center;
+    font-weight: bold;
 }
 
 #imagen6{
@@ -400,6 +405,7 @@ form {
     padding: 15px;
     box-sizing: border-box;
     text-align: center;
+    font-weight: bold;
     
 }
 
