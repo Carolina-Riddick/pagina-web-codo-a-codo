@@ -5,14 +5,16 @@ body {
 h1 {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0px 20px 0px 20px;
-    padding: 0px 20px 0px 20px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px 20px 20px 20px;
-    padding: 30px 20px 20px 20px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px 20px 10px 20px;
+    text-align: left;
 }
 
 p{
@@ -26,12 +28,13 @@ header {
 }
 
 footer {
+    box-sizing: border-box;
     width: 960px; 
     margin: auto;
     padding: auto;
 }
 
-/*Diseño de la barra de menú*/
+/*BARRA DE MENU*/
 
 ul.navbar {
     list-style: none;
@@ -39,7 +42,6 @@ ul.navbar {
     height: 50px;
     padding: 20px 10px 10px 10px;
     position: static;
-    
 }
 
 ul.navbar a {
@@ -61,7 +63,7 @@ ul.navbar a:hover{
     color: white;
 }
 
-/*Diseño formulario*/
+/*ESTUDIA CON NOSOTROS - FORMULARIO*/
 
 form {
     display: block;
@@ -70,9 +72,11 @@ form {
     border-radius:10px;
     margin: auto;
     background-color:#FCC5A5;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*Diseño de logo header*/
+/*LOGO HEADER*/
 
 #marca img {
     display: block;
@@ -86,16 +90,14 @@ form {
     width: 140px;
 }
 
-/*Diseño imagenes de la seccion propuesta academica*/
+/*PROPUESTA ACADEMICA*/
 
 #imagenreposteria img {
     max-width: 250px;
-    margin: 0px 10px 20px 20px;
-    padding: 0px 10px 30px 20px;
+    margin: 10px 10px 20px 20px;
+    padding: 10px 10px 30px 20px;
     position: static;
 }
-
-/*Diseño de cajas seccion propuesta academica*/
 
 #academicas {
     width: 960px;
@@ -109,37 +111,50 @@ form {
 .carreras {
     border-radius:10px;
     background-color:#FCC5A5;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .carrera1 p {
-    padding: 0px 20px 20px 10px;
+    padding: 10px 20px 20px 10px;
     background-color: #FCC5A5;
-    margin: 0px 20px 20px 20px;
+    margin: 10px 20px 20px 20px;
 }
 
 #botoninscripcion {
-    background-color: red;
-    margin: 0px;
-    padding: 0px;
-    height: 50px;
+    background-color: white;
+    width: 960px;
+    margin: auto; 
+    margin-bottom: 10px;
+    padding: auto;
+    height: 60px;
 }
 
 #botoninscripcion p {
+    font-size: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
     text-align: center;
-    padding: 15px 0px 0px 0px;
-    margin-left: 500px; 
-    background-color: blue;
+    width: 350px;
+    padding: 10px 0px 10px 0px;
+    margin: auto;
+    background-color:chartreuse;
+    height: 60px;
 }
 
-/*Diseño cajas seccion acerca de nosotros*/
+#botoninscripcion p:hover {
+    background-color: red;
+    color: white;
+}
+
+/*ACERCA DE NOSOTROS*/
 
 #contenido-principal {
     width: 960px;
     background-color: #FCC5A5;
     color: black;
     margin: auto;
-    padding: 30px;
+    padding: 30px 30px 30px 40px;
     box-sizing: border-box;
     border-radius:10px;
 }
@@ -158,15 +173,22 @@ form {
     margin-bottom: 10px;
 }
 
-#razones{
+#razones {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     text-align: justify;
     margin-bottom: 10px;
 }
 
+.nosotros {
+    width: 500px;
+}
 
-/*Diseño seccion index */
+.mision {
+    width: 500px;
+}
+
+/*INDEX*/
 
 #noticias {
     width: 960px;
@@ -174,9 +196,8 @@ form {
     box-sizing: border-box;
     background-color: #FCC5A5;
     margin: auto;
-    padding: 30px;
+    padding: 30px 30px 40px 30px;
     text-align: center;
-
 }
 
 #noticias-egresados {
@@ -188,21 +209,20 @@ form {
     padding: 30px;
 }
 
-
-.subtitulos{
+.subtitulos {
     font-family: sans-serif;
     font-size:x-large;
     color: rgb(180, 92, 70);
     font-weight:bold;
 }
 
-.imagen img{
+.imagen img {
     width: 600px;
     margin: 0px 10px 20px 20px;
     padding: 0px;           
 }
 
-.parrafo{
+.parrafo {
     padding: 0%;
 }
 
@@ -214,18 +234,18 @@ form {
     text-align:justify;
 }
 
-#inscripciones h3{
+#inscripciones h3 {
     text-decoration:underline;
 }
 
-#inscripciones h4{
+#inscripciones h4 {
     text-align: center;
     font-size: 30px;
     font-style: oblique;
     font-weight: bold;
 }
 
-#inscripciones a{
+#inscripciones a {
     float:middle;
     font-size: 40px;
     font-style: oblique;
@@ -242,13 +262,13 @@ form {
     padding: 30px;
 }
 
-#presentacion{
+#presentacion {
     padding: 10px;
     padding-right: 10px;
 
 }
 
-#subtitulo-receta{
+#subtitulo-receta {
     text-align: center;
     font-size: 25px;
     font-style: oblique;
@@ -257,8 +277,8 @@ form {
     font-weight: bold;
 }
 
-#imagen1{
-    background-image: url(/pagina-web-codo-a-codo/img/pizzasintacc.jpg);
+#imagen1 {
+    background-image: url(../img/pizzasintacc.jpg);
     width: 400px;
     height: 300px;
     float: center;
@@ -267,7 +287,7 @@ form {
     background-size: cover;
 }
 
-#parrafo1{
+#parrafo1 {
     font-size: 15px;
     width: 200;
     height: 300;
@@ -278,8 +298,7 @@ form {
     font-weight: bold;
 }
 
-
-#texto-contenido{
+#texto-contenido {
     width: 200 ;
     height: 300;
     background-color: #FCC5A5;
@@ -288,15 +307,15 @@ form {
     padding: 10px;
 }
 
-#parrafo2{
+#parrafo2 {
    font-size: 15px;
    font-weight: bold;
    float: center;
    text-align: justify;
 }
 
-#imagen2{
-    background-image: url(/pagina-web-codo-a-codo/img/cebollasmoradasrellenas.jpg);
+#imagen2 {
+    background-image: url(../img/cebollasmoradasrellenas.jpg);
     width: 400px;
     height: 300px;
     float: center;
@@ -305,7 +324,7 @@ form {
     background-size: cover;
 }
 
-#saludables{
+#saludables {
     width: 200 ;
     height: 300;
     background-color: #FCC5A5;
@@ -314,7 +333,7 @@ form {
 }
 
 #imagen3 {
-    background-image: url(/pagina-web-codo-a-codo/img/saludables3.jpg);
+    background-image: url(../img/saludables3.jpg);
     width: 400px;
     height: 300px;
     float: center;
@@ -323,8 +342,7 @@ form {
     background-size: cover;
 }
 
-
-#parrafo3{
+#parrafo3 {
     font-size: 15px;
     width: 300;
     height: 300;
@@ -337,9 +355,8 @@ form {
 
 }
 
-
 #imagen4 {
-    background-image: url(/pagina-web-codo-a-codo/img/saludables2.jpg);
+    background-image: url(../img/saludables2.jpg);
     width: 400px;
     height: 300px;
     float: center;
@@ -348,7 +365,7 @@ form {
     background-size: cover;
 }
 
-#parrafo4{
+#parrafo4 {
     font-size: 15px;
     width: 200;
     height: 300;
@@ -367,8 +384,8 @@ form {
     font-weight: bold;
 }
 
-#imagen5{
-    background-image: url(/pagina-web-codo-a-codo/img/faciles2.jpg);
+#imagen5 {
+    background-image: url(../img/faciles2.jpg);
     width: 400px;
     height: 300px;
     float: center;
@@ -378,7 +395,7 @@ form {
     
 }
 
-#parrafo5{
+#parrafo5 {
     font-size: 15px;
     width: 200;
     height: 300;
@@ -387,8 +404,8 @@ form {
     font-weight: bold;
 }
 
-#imagen6{
-    background-image: url(/pagina-web-codo-a-codo/img/faciles3.jpg);
+#imagen6 {
+    background-image: url(../img/faciles3.jpg);
     width: 400px;
     height: 300px;
     float: center;
@@ -397,7 +414,7 @@ form {
     background-size: cover;
 }
 
-#parrafo6{
+#parrafo6 {
     font-size: 15px;
     width: 300;
     height: 300;
@@ -409,7 +426,7 @@ form {
     
 }
 
-/*Logo whatsapp*/
+/*LOGO WHATSAPP*/
 
 #logowpp {
     margin: auto;
@@ -418,9 +435,10 @@ form {
 #logowpp img {
     width: 50px;
     
+    float: right;
 }
 
-/*Diseño footer*/
+/*FOOTER*/
 
 #botonera-footer {
     color: rgb(254, 255, 255);
@@ -429,14 +447,15 @@ form {
     font-size: 16px;
     text-align: justify;
     width: 960px;
+    
 }
 
 #datos {
     background-color: rgb(0, 0, 0);
     padding-left: 20px; 
     border-radius:10px;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 0px 0px 0px;
 }
 
 #datos p {
@@ -458,6 +477,9 @@ form {
     width: 30px;
 }
 
+#botonera_footer ul {
+    padding: 0px;
+}
 
 /*Diseño Responsive Media Query*/
 /*Modo tableta*/
