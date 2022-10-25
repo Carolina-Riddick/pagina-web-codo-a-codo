@@ -166,10 +166,20 @@ form {
 }
 
 
+/*Diseño seccion index */
 
-/*Diseño seccion index*/
+#noticias {
+    width: 960px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #FCC5A5;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
 
-#recetas {
+}
+
+#noticias-egresados {
     width: 960px;
     border-radius: 10px;
     box-sizing: border-box;
@@ -179,23 +189,219 @@ form {
 }
 
 
-/*
-#navidenas {
-
-    background-color: aquamarine;
-   
+.subtitulos{
+    font-family: sans-serif;
+    font-size:x-large;
+    color: rgb(180, 92, 70);
+    font-weight:bold;
 }
 
-#saludables {
-    background-color: palevioletred;
-    
+.imagen img{
+    width: 550px;
+    margin: 0px 10px 20px 20px;
+    padding: 0px;           
+}
+
+.parrafo{
+    padding: 0%;
+}
+
+.parrafo p {
+    font-size: 15px;
+    text-shadow: 10px;
+    padding:0%;
+    font-weight: bold;
+    text-align:justify;
+}
+
+#inscripciones h3{
+    text-decoration:underline;
+}
+
+#inscripciones h4{
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration: solid;
+}
+
+#inscripciones a{
+    float:middle;
+    font-size: 40px;
+    font-style: oblique;
+    text-decoration:underline;
+}
+
+#recetas {
+    width: 960px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #FCC5A5;
+    margin: auto;
+    margin-top: 15px;
+    padding: 30px;
+}
+
+#presentacion{
+    padding: 10px;
+    padding-right: 10px;
+
+}
+
+#subtitulo-receta{
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #9a5329;
+    text-decoration: solid;
+}
+
+#imagen1{
+    background-image: url(/pagina-web-codo-a-codo/img/pizzasintacc.jpg);
+    width: 400px;
+    height: 300px;
+    float: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-size: cover;
+}
+
+#parrafo1 p{
+    font-size: 25px;
+    width: 200;
+    height: 300;
+    margin-bottom: 10;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: justify;
+    float: right;
+}
+
+
+#texto-contenido{
+    width: 200 ;
+    height: 300;
+    background-color: #FCC5A5;
+    float:left;
+    padding: 10px;
+}
+
+#parrafo2 p{
+   float: center;
+}
+
+#imagen2{
+    background-image: url(/pagina-web-codo-a-codo/img/cebollasmoradasrellenas.jpg);
+    width: 400px;
+    height: 300px;
+    float: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-size: cover;
+}
+
+#saludables{
+    width: 200 ;
+    height: 300;
+    background-color: #FCC5A5;
+    float:center;
+    padding: 10px;
+}
+
+#imagen3 {
+    background-image: url(/pagina-web-codo-a-codo/img/saludables3.jpg);
+    width: 400px;
+    height: 300px;
+    float: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-size: cover;
+}
+
+
+#parrafo3{
+    font-size: 15px;
+    width: 300;
+    height: 300;
+    /*margin-bottom: 10;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: justify;
+    float: center;*/
+}
+
+
+#imagen4 {
+    background-image: url(/pagina-web-codo-a-codo/img/saludables2.jpg);
+    width: 400px;
+    height: 300px;
+    float: center;
+    /*margin-bottom: 15px;
+    padding: 10px;*/
+    background-size: cover;
+}
+
+#parrafo4 p{
+    font-size: 15px;
+    width: 300;
+    height: 300;
+    /*margin-bottom: 10;
+    padding: 15px;*/
+    box-sizing: border-box;
+    text-align: justify;
+    float: center;
+
 }
 
 #faciles {
-    background-color: red;
+    width: 200 ;
+    height: 300;
+    background-color: #FCC5A5;
+    float:center;
+    padding: 10px;
+}
+
+#imagen5{
+    background-image: url(/pagina-web-codo-a-codo/img/faciles2.jpg);
+    width: 400px;
+    height: 300px;
+    float: center;
+    margin-bottom: 5px;
+    padding: .1px;
+    background-size: cover;
+}
+
+#parrafo5{
+    font-size: 15px;
+    width: 300;
+    height: 300;
+    /*margin-bottom: 10;
+    padding: 15px;
+    text-align: right;*/
+    float: center;
+}
+
+#imagen6{
+    background-image: url(/pagina-web-codo-a-codo/img/faciles3.jpg);
+    width: 400px;
+    height: 300px;
+    float: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-size: cover;
+}
+
+#parrafo6{
+    font-size: 15px;
+    width: 300;
+    height: 300;
+    margin-bottom: 10;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
     
 }
-*/
 
 /*Logo whatsapp*/
 
