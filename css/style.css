@@ -17,7 +17,23 @@ h2 {
     text-align: left;
 }
 
-p{
+h3 {
+    font-family: sans-serif;
+    font-size: x-large;
+    color: rgb(180, 92, 70);
+    font-weight: bold;
+    text-align: center;
+    text-decoration:underline;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+p {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -76,13 +92,13 @@ form {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#maps{
+#maps {
+    width: 960px;
     display: block;
-    padding:20px;
+    padding: 20px;
     margin: auto;
     font-size: 16px;
     height: 500px;
-    width: 45%;
     margin-top: 15px; 
 }
 
@@ -199,17 +215,140 @@ form {
     width: 500px;
 }
 
-/*INDEX*/
+
+
+
+/*LOGO WHATSAPP*/
+
+#logowpp {
+    margin: auto;
+}
+
+#logowpp img {
+    width: 50px;
+    
+    float: right;
+}
+
+/*FOOTER*/
+
+#botonera-footer {
+    color: rgb(254, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    width: 960px;
+    
+}
+
+#datos {
+    background-color: rgb(0, 0, 0);
+    padding-left: 20px; 
+    border-radius:10px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0px 0px 0px;
+}
+
+#datos p {
+    color: rgb(255, 255, 255);
+}
+ 
+#redes {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;          
+}
+
+#botonera_footer ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#botonera_footer ul li a img {
+    width: 30px;
+}
+
+#botonera_footer ul {
+    padding: 0px;
+}
+
+/*Diseño Responsive Media Query*/
+/*Modo tableta*/
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    /*Copiar y pegar todo lo de arriba, borrar lo que esté repetido 
+    de estilo. 
+    Modificar tamaño de width*/
+
+}
+
+/*Puebas INDEX SECCION NOTICIAS*/
+
+#imagen01 {
+    float: left;
+    width: 450px;
+    height: 300px;
+}
+
+#imagen01 img {
+    height: 300px;
+    width: auto;
+}
+
+#parafo01 {
+    width: 400px;
+    height: 300px;
+    box-sizing: border-box;
+    float: right;
+    margin: ;
+}
+
+#parrafo01 p {
+    width: auto;
+    height: 300px;
+    
+}
 
 #noticias {
     width: 960px;
+    height: 1200px;
     border-radius: 10px;
     box-sizing: border-box;
     background-color: #FCC5A5;
     margin: auto;
-    padding: 30px 30px 40px 30px;
-    text-align: center;
+    padding: 40px;
 }
+
+#egresados {
+    height: 600px;
+}
+
+#imagen02 {
+    height: 250px;
+    width: 450px;
+    float: left;
+    margin-top: 20px;
+}
+
+#imagen02 img {
+    width: 400px;
+}
+
+#parrafo02 {
+    height: 250px;
+    width: 400px;
+    float: right;
+    box-sizing: border-box;
+}
+
+#parrafo02 p {
+    height: 300px;
+    width: 400px;
+}
+
+/*INDEX CODIGO VIEJO*/
+
 
 #noticias-egresados {
     width: 960px;
@@ -220,47 +359,11 @@ form {
     padding: 30px;
 }
 
-.subtitulos {
-    font-family: sans-serif;
-    font-size:x-large;
-    color: rgb(180, 92, 70);
-    font-weight:bold;
-}
-
-.imagen img {
-    width: 600px;
-    margin: 0px 10px 20px 20px;
-    padding: 0px;           
-}
-
-.parrafo {
-    padding: 0%;
-}
-
-.parrafo p {
-    font-size: 15px;
-    text-shadow: 10px;
-    padding:0%;
-    font-weight: bold;
-    text-align:justify;
-}
-
-#inscripciones h3 {
-    text-decoration:underline;
-}
-
-#inscripciones h4 {
-    text-align: center;
-    font-size: 30px;
-    font-style: oblique;
-    font-weight: bold;
-}
-
 #inscripciones a {
-    float:middle;
     font-size: 40px;
     font-style: oblique;
     text-decoration:underline;
+    text-align: center;
 }
 
 #recetas {
@@ -276,11 +379,9 @@ form {
 #presentacion {
     padding: 10px;
     padding-right: 10px;
-
 }
 
 #subtitulo-receta {
-    text-align: center;
     font-size: 25px;
     font-style: oblique;
     font-weight: bold;
@@ -292,7 +393,7 @@ form {
     background-image: url(../img/pizzasintacc.jpg);
     width: 400px;
     height: 300px;
-    float: center;
+    float: left;
     margin-bottom: 15px;
     padding: 10px;
     background-size: cover;
@@ -300,12 +401,12 @@ form {
 
 #parrafo1 {
     font-size: 15px;
-    width: 200;
-    height: 300;
+    width: 200px;
+    height: 300px;
     margin-bottom: 10;
     padding: 15px;
     text-align: justify;
-    float: center;
+    float: right;
     font-weight: bold;
 }
 
@@ -363,7 +464,6 @@ form {
     text-align: justify;
     float:center;
     font-weight: bold;
-
 }
 
 #imagen4 {
@@ -435,69 +535,4 @@ form {
     text-align: center;
     font-weight: bold;
     
-}
-
-/*LOGO WHATSAPP*/
-
-#logowpp {
-    margin: auto;
-}
-
-#logowpp img {
-    width: 50px;
-    
-    float: right;
-}
-
-/*FOOTER*/
-
-#botonera-footer {
-    color: rgb(254, 255, 255);
-    background-color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    text-align: justify;
-    width: 960px;
-    
-}
-
-#datos {
-    background-color: rgb(0, 0, 0);
-    padding-left: 20px; 
-    border-radius:10px;
-    padding: 10px 20px 10px 20px;
-    margin: 20px 0px 0px 0px;
-}
-
-#datos p {
-    color: rgb(255, 255, 255);
-}
- 
-#redes {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;          
-}
-
-#botonera_footer ul li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-#botonera_footer ul li a img {
-    width: 30px;
-}
-
-#botonera_footer ul {
-    padding: 0px;
-}
-
-/*Diseño Responsive Media Query*/
-/*Modo tableta*/
-
-@media all and (min-width: 600px) and (max-width: 1023px) {
-    /*Copiar y pegar todo lo de arriba, borrar lo que esté repetido 
-    de estilo. 
-    Modificar tamaño de width*/
-
 }
