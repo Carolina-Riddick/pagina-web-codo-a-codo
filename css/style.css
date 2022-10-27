@@ -8,6 +8,7 @@ h1 {
     margin: 0px;
     padding: 0px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -287,7 +288,7 @@ form {
 
 #imagen01 {
     float: left;
-    width: 450px;
+    width: 500px;
     height: 300px;
 }
 
@@ -297,16 +298,18 @@ form {
 }
 
 #parafo01 {
-    width: 400px;
+    width: 500px;
     height: 300px;
     box-sizing: border-box;
     float: right;
-    margin: ;
+    
 }
 
 #parrafo01 p {
     width: auto;
     height: 300px;
+    font-size: 20px;
+    padding: 20px;
     
 }
 
@@ -325,38 +328,33 @@ form {
 }
 
 #imagen02 {
-    height: 250px;
-    width: 450px;
+    height: 350px;
+    width: 550px;
     float: left;
-    margin-top: 20px;
 }
 
 #imagen02 img {
-    width: 400px;
+    width: 550px;
+    height: 350px;
 }
 
 #parrafo02 {
-    height: 250px;
-    width: 400px;
+    height: 350px;
+    width: 300px;
     float: right;
     box-sizing: border-box;
 }
 
 #parrafo02 p {
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 300px;
+    font-size: 20px;
 }
 
-/*INDEX CODIGO VIEJO*/
-
-
-#noticias-egresados {
-    width: 960px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    background-color: #FCC5A5;
-    margin: auto;
-    padding: 30px;
+#inscripciones{
+    height: 200px;
+    width: 800px;
+    text-align: center;   
 }
 
 #inscripciones a {
@@ -366,152 +364,179 @@ form {
     text-align: center;
 }
 
-#recetas {
+/*INDEX CODIGO VIEJO
+
+#noticias-egresados {
     width: 960px;
     border-radius: 10px;
     box-sizing: border-box;
     background-color: #FCC5A5;
     margin: auto;
+    padding: 30px;
+}
+*/
+#recetas {
+    width: 960px;
+    height: 2100px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #FCC5A5;
+    margin: auto; /*NO TOCAR */
     margin-top: 15px;
     padding: 30px;
 }
-
-#presentacion {
-    padding: 10px;
-    padding-right: 10px;
-}
-
+/*
 #subtitulo-receta {
-    font-size: 25px;
+    font-size: 20px;
+    height: 20px;
     font-style: oblique;
     font-weight: bold;
     color: #9a5329;
     font-weight: bold;
-}
+    text-align: center;
+}*/
 
 #imagen1 {
     background-image: url(../img/pizzasintacc.jpg);
     width: 400px;
     height: 300px;
     float: left;
-    margin-bottom: 15px;
-    padding: 10px;
+    margin-top: 20px;
     background-size: cover;
 }
 
 #parrafo1 {
-    font-size: 15px;
-    width: 200px;
+    width: 400px;
     height: 300px;
-    margin-bottom: 10;
-    padding: 15px;
-    text-align: justify;
+    /*margin-bottom: 10px;*/
     float: right;
     font-weight: bold;
 }
 
+#parrafo1 p{
+    height: auto;
+    width: auto;
+    font-size: 20px;
+}
+
+/*
+#presentacion {
+    padding: 10px;
+    padding-right: 10px;
+}
+
 #texto-contenido {
-    width: 200 ;
-    height: 300;
+    width: 400px ;
+    height: 300px;
     background-color: #FCC5A5;
     float:center;
     font-weight: bold;
     padding: 10px;
 }
 
-#parrafo2 {
-   font-size: 15px;
-   font-weight: bold;
-   float: center;
-   text-align: justify;
-}
+#recetas-celiacas{
+    width: 900px ;
+    height: 600px;
+}*/
 
-#imagen2 {
-    background-image: url(../img/cebollasmoradasrellenas.jpg);
+#imagen2{
     width: 400px;
     height: 300px;
-    float: center;
-    margin-bottom: 15px;
-    padding: 10px;
+    background-image: url(../img/cebollasmoradasrellenas.jpg);
     background-size: cover;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-#saludables {
-    width: 200 ;
-    height: 300;
-    background-color: #FCC5A5;
-    float:center;
-    padding: 10px;
+#parrafo2 {
+    height: 270px;
+    width: 400px;
+    float: right;
+    font-weight: bold;
+    float: center;
+    text-align: justify;
+}
+
+#parrafo2 p{
+   height: 300px;
+   width: 400px;
+   font-size: 15px;
+}  
+
+#saludables{
+    height: 650px;
 }
 
 #imagen3 {
     background-image: url(../img/saludables3.jpg);
-    width: 400px;
-    height: 300px;
-    float: center;
-    margin-bottom: 15px;
-    padding: 10px;
     background-size: cover;
+    height: 300px;
+    width: 400px;
+    float: left;
+    /*margin-bottom: 15px;
+    padding: 10px;*/
+}
+
+#imagen3 img {
+    width: 500px;
+    height: 300px;
 }
 
 #parrafo3 {
-    font-size: 15px;
-    width: 300;
-    height: 300;
-    margin-bottom: 10;
-    padding: 15px;
+    height: 270px;
+    width: 400px;
+    float: right;
     box-sizing: border-box;
-    text-align: justify;
-    float:center;
     font-weight: bold;
 }
 
-#imagen4 {
+#parrafo3 p{
+    height: auto;
+    width: 300px;
+    font-size: 20px;    
+}
+
+
+#imagen4{
+    height: 300px;
+    width: 400px;
     background-image: url(../img/saludables2.jpg);
+    background-size: cover;
+    float: left;
+    margin-top: 15px;
+    /*padding: 10px;*/    
+}
+
+#imagen4 img {
     width: 400px;
     height: 300px;
-    float: center;
-    /*margin-bottom: 15px;
-    padding: 10px;*/
-    background-size: cover;
 }
 
 #parrafo4 {
     font-size: 15px;
-    width: 200;
-    height: 300;
+    width: 400px;
+    height: 300px;
     font-weight: bold;
-    margin-bottom: 10;
-    padding: 15px;
-    float: center;
-}
-
-#faciles {
-    width: 200 ;
-    height: 300;
-    background-color: #FCC5A5;
-    float:center;
-    padding: 10px;
-    font-weight: bold;
+    margin-top: 40px;
+    float: right;
 }
 
 #imagen5 {
     background-image: url(../img/faciles2.jpg);
     width: 400px;
     height: 300px;
-    float: center;
-    margin-bottom: 5px;
-    padding: .1px;
+    float: left;
+    margin-top: 15px;
     background-size: cover;
-    
 }
 
 #parrafo5 {
     font-size: 15px;
-    width: 200;
-    height: 300;
-    margin-bottom: 10;
-    padding: 15px;
+    float: right;
+    margin-top: 30px;
+    width: 400px;
+    height: 300px;
     font-weight: bold;
 }
 
@@ -519,20 +544,31 @@ form {
     background-image: url(../img/faciles3.jpg);
     width: 400px;
     height: 300px;
-    float: center;
-    margin-bottom: 15px;
-    padding: 10px;
+    float: left;
     background-size: cover;
+    margin-top: 20px;
 }
 
 #parrafo6 {
     font-size: 15px;
-    width: 300;
-    height: 300;
-    margin-bottom: 10;
-    padding: 15px;
-    box-sizing: border-box;
-    text-align: center;
+    width: 400px;
+    height: 220px;
     font-weight: bold;
-    
+    float: right;
 }
+
+#texto-final{
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration:underline;
+    text-align: center;
+}
+
+
+
+
+
+
