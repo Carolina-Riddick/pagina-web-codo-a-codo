@@ -216,9 +216,7 @@ form {
     width: 500px;
 }
 
-
 /*LOGO WHATSAPP*/
-
 #logowpp {
     margin: auto;
 }
@@ -230,7 +228,6 @@ form {
 }
 
 /*FOOTER*/
-
 #botonera-footer {
     color: rgb(254, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -282,8 +279,7 @@ form {
 
 }
 
-/*Puebas INDEX SECCION NOTICIAS*/
-
+/*INDEX SECCION NOTICIAS*/
 #imagen01 {
     float: left;
     width: 500px;
@@ -554,7 +550,6 @@ form {
     font-weight: bold;
     float: right;
 }
-
 #texto-final{
     height: 200px;
     width: 800px;
@@ -592,5 +587,4 @@ form {
 
 #texto-boton :hover{
     color: rgb(0, 0, 0);
-
 }
