@@ -217,8 +217,6 @@ form {
 }
 
 
-
-
 /*LOGO WHATSAPP*/
 
 #logowpp {
@@ -356,13 +354,13 @@ form {
     width: 800px;
     text-align: center;   
 }
-
+/*
 #inscripciones a {
     font-size: 40px;
     font-style: oblique;
     text-decoration:underline;
     text-align: center;
-}
+}*/
 
 /*INDEX CODIGO VIEJO
 
@@ -567,8 +565,32 @@ form {
     text-align: center;
 }
 
+#boton-propuesta-academica{
+    background-color:#FCC5A5;
+    width: 400px;
+    margin: auto; 
+    margin-bottom: 10px;
+    padding: auto;
+    height: 80px;
+}
 
+#texto-boton{
+    font-size: 40px;
+    border-radius: 30px;
+    background-color:rgb(217, 117, 10);
+    box-sizing: border-box;
+    width: 450px;
+    padding: 10px 0px 10px 0px;
+    margin: auto;
+    font-style: oblique;
+    text-align: center;
+}
 
+#texto-boton a{
+    color: rgb(132, 0, 0);
+}
 
+#texto-boton :hover{
+    color: rgb(0, 0, 0);
 
-
+}
