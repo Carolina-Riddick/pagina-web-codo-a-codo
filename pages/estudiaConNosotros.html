@@ -24,6 +24,7 @@
         </nav>
     </header>
    
+    <section id="formulario">
     <form action="#">
         <fieldset>
         <legend>Complete con sus datos personales</legend>
@@ -57,12 +58,10 @@
         </select>  
         <br><br>
         <label for="turno"> <b>Seleccionar Turno:</b> </label><br><br>
-        <select name="Turno" id="Turno" size="3">
+        <select name="Turno" id="Turno" size="2">
             <option value="1">Mañana</option> 
             <br>
             <option value="2">Tarde</option>
-            <br><br>
-            <option value="3">Noche</option>
         </select>               
         <br> <br>
         <label for="Comentarios"><b>Ingrese su consulta:</b> </label> <br><br>
@@ -73,12 +72,19 @@
         <input type="reset" value="Borrar">  
      </fieldset>
      </form>
-
+     <div id="aside">
+        <img src="../img/aside.jpg">
+     </div>
+    </section>
+    
+    <section id="api">
      <!-- Insertamos API Maps-->
      <div id="maps">
         <script src="/maps.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMaps"></script>
      </div>
+    </section>
+
 </body> 
 <footer>
     <div id="datos">
