@@ -393,30 +393,40 @@ ul.navbar a:hover{
 
 /*------------------------------------------------------------------ESTUDIA CON NOSOTROS - FORMULARIO------------------------------------------------------------*/
 
-#formulario {
+#formulario { /*seccion*/
     width: 960px;
     height: 850px;
     margin: auto;
     padding-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 form {
     display: block;
-    max-width: fit-content;
+    min-width: fit-content;
     padding: 30px;
     border-radius: 10px;
-    margin: auto;
     background-color:#FCC5A5;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float: left;
+}
+
+#aside {
+    box-sizing: border-box;
+    padding-left: 10px;
+    width: auto;
+    height: auto;
 }
 
 #aside img {
-    width: 559px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
-    float: right;
-    height: auto;
+    margin: 0;
+    padding: 0;
 }
 
 #api {
