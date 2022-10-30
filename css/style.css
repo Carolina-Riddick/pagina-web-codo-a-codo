@@ -164,7 +164,8 @@ ul.navbar a:hover{
 #inscripciones{
     height: 200px;
     width: 800px;
-    text-align: center;   
+    text-align: center;
+    margin: auto;
 }
 
 #boton-propuesta-academica{
