@@ -2,6 +2,10 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1 {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -99,7 +103,7 @@ ul.navbar a:hover{
 
 #noticias {
     width: 960px;
-    height: 1250px;
+    height: auto;
     border-radius: 10px;
     box-sizing: border-box;
     background-color: #FCC5A5;
@@ -199,9 +203,9 @@ ul.navbar a:hover{
 
 /* Seccion Recetas*/
 
-#recetas {
+ #recetas {
     width: 960px;
-    height: 2250px;
+    height: auto;
     border-radius: 10px;
     box-sizing: border-box;
     background-color: #FCC5A5;
@@ -210,157 +214,54 @@ ul.navbar a:hover{
     margin-top: 20px;
 }
 
-/*Articulo Destacadas*/
+/*FLEXBOX DE PRUEBA*/
 
-#destacadas {
-    height: 650px;
-}
-
-#imagen1 {
-    background-image: url(../img/pizzasintacc.jpg);
-    width: 400px;
-    height: 300px;
-    float: left;
-    margin-top: 20px;
-    background-size: cover;
-}
-
-#parrafo1 {
-    width: 450px;
-    height: 300px;
-    float: right;
-    font-weight: bold;
+.imagen0 {
+    height: auto;
+    width: 100%;
     margin: 0px;
-    margin-top: 20px;
-    box-sizing: border-box;
 }
 
-#parrafo1 p {
-    height: auto;
-    width: auto;
-    font-size: 20px;
+.imagen0 img {
+    border: 0;
+    width: 670px;
+    margin: 20px;
 }
 
-#imagen2 {
-    width: 400px;
-    height: 300px;
-    background-image: url(../img/cebollasmoradasrellenas.jpg);
-    background-size: cover;
-    float: left;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.tarjeta0 {
+    display: flex;
+    flex-wrap: wrap-reverse; /*se ajustan las cajas al ancho de la ventana, es decir se acomodan hacia cualquier linea*/
+    width: 750px;
+    margin: auto;
 }
 
-#parrafo2 {
-    height: 300px;
-    width: 450px;
-    float: right;
-    font-weight: bold;
-    float: center;
+.tarjeta0 p {
     text-align: justify;
-    box-sizing: border-box;
 }
 
-#parrafo2 p {
-   height: auto;
-   width: auto;
-   font-size: 15px;
-}  
-
-/*ArticuloS Recetas Saludables*/
-
-#saludables {
-    height: 1450px;
-}
-
-#imagen3 {
-    background-image: url(../img/saludables3.jpg);
-    background-size: cover;
-    height: 300px;
-    width: 400px;
-    float: left;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-#parrafo3 {
-    height: 300px;
-    width: 450px;
-    float: right;
-    box-sizing: border-box;
-    font-weight: bold;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-#parrafo3 p{
+.imagen {
     height: auto;
-    width: auto;
-    font-size: 20px;    
+    width: 100%;
+    margin: 0px;
 }
 
-#imagen4 {
-    height: 300px;
-    width: 400px;
-    background-image: url(../img/saludables2.jpg);
-    background-size: cover;
-    float: left;
-    margin-top: 15px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.imagen img {
+    border: 0;
+    width: 470px;
+    margin: 20px;
+    
 }
 
-/*#parrafo4 {
-    font-size: 15px;
-    height: 270px;
-    width: 450px;
-    font-weight: bold;
-    margin-top: 40px;
-    float: right;
-    box-sizing: border-box;
-}
-codigo repetitivo*/
-
-#imagen5 {
-    background-image: url(../img/faciles2.jpg);
-    width: 400px;
-    height: 300px;
-    float: left;
-    background-size: cover;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.tarjeta {
+    display: flex;
+    flex-wrap: nowrap; /*se ajustan las cajas al ancho de la ventana, es decir se acomodan hacia cualquier linea*/
+    width: 850px;
+    margin: auto;
 }
 
-/*#parrafo5 {
-    font-size: 15px;
-    float: right;
-    margin-top: 30px;
-    width: 450px;
-    height: 300px;
-    font-weight: bold;
+.tarjeta p {
+    text-align: justify;
 }
-codigo repetitivo*/
-
-#imagen6 {
-    background-image: url(../img/faciles3.jpg);
-    width: 400px;
-    height: 300px;
-    float: left;
-    background-size: cover;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-/*#parrafo6 {
-    font-size: 15px;
-    width: 450px;
-    height: 220px;
-    font-weight: bold;
-    float: right;
-}
-codigo repetitivo*/
 
 /*--------------------------------------------------------------------ACERCA DE NOSOTROS-¿QUIENES SOMOS?--------------------------------------------------------------*/
 
@@ -583,7 +484,8 @@ form {
     padding: 0px;
 }
 
-/*Diseño Responsive Media Query*/
+
+/*Diseño Responsive Media Query de la Pagina Propuesta Academica*/
 /*Modo tableta*/
 
 @media all and (min-width: 600px) and (max-width: 1023px) {
