@@ -540,15 +540,13 @@ form {
     
     /*Articulo Proximas Inscripciones*/
     
-    #inscripciones{
-        height: 200px;
-        width: 800px;
-        text-align: center;
+    #inscripciones {
+        height: auto;
+        width: 580px;
         margin: auto;
     }
     
     #boton-propuesta-academica{
-        background-color:#FCC5A5;
         width: 400px;
         margin: auto; 
         margin-bottom: 10px;
@@ -558,22 +556,9 @@ form {
     
     #texto-boton {
         font-size: 30px;
-        border-radius: 40px;
-        background-color:#e2966a;
-        box-sizing: border-box;
         width: 450px;
         padding: 10px 0px 10px 0px;
         margin: auto;
-        font-style: italic;
-        text-align: center;
-    }
-    
-    #texto-boton a {
-        text-decoration: none;
-    }
-    
-    #texto-boton :hover {
-        color: rgb(255, 255, 255);
     }
     
     /* Seccion Recetas*/
@@ -581,9 +566,6 @@ form {
      #recetas {
         width: 580px;
         height: auto;
-        border-radius: 10px;
-        box-sizing: border-box;
-        background-color: #FCC5A5;
         margin: auto;
         padding: 10px 40px 30px 40px;
         margin-top: 20px;
@@ -613,11 +595,6 @@ form {
         padding-bottom: 20px;
     }
 
-    .tarjeta0 p {
-        text-align: justify;
-        width: 100%;
-    }
-
     .imagen {
         height: auto;
         width: 470px;
@@ -643,7 +620,7 @@ form {
     #botonera-footer {
         font-size: 16px;
         text-align: justify;
-        width: 960px; 
+        width: 580px; 
     }
     
     #datos {
@@ -654,3 +631,8 @@ form {
     }
 }
 
+/*Responsive de celular*/
+
+@media all and (max-width: 599px) {
+
+}
