@@ -2,18 +2,26 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 960px;
+    margin: auto;
+}
+
 h1 {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
     margin: 0px;
-    padding: 0px;
-    text-align: center;
-    margin-bottom: 10px;
+    padding: 20px 20px 10px 20px;
 }
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px 20px 0px 20px;
+    margin: 0px 20px 0px 20px;
     padding: 20px 20px 10px 20px;
     text-align: left;
 }
@@ -39,10 +47,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
-    width: 960px;
-    margin: auto;
-}
+
 
 footer {
     box-sizing: border-box;
@@ -51,60 +56,7 @@ footer {
     padding: auto;
 }
 
-/*BARRA DE MENU*/
-
-ul.navbar {
-    list-style: none;
-    background-color: #e2966a;
-    height: 50px;
-    padding: 20px 10px 10px 10px;
-    position: static;
-}
-
-ul.navbar a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    color: rgb(2, 2, 2);
-    text-transform: uppercase;
-}
-
-ul.navbar li {
-    display: inline-block;
-    width: 24%;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;  
-}
-
-ul.navbar a:hover{
-    color: white;
-}
-
-/*ESTUDIA CON NOSOTROS - FORMULARIO*/
-
-form {
-    display: block;
-    max-width: fit-content;
-    padding:30px;
-    border-radius:10px;
-    margin: auto;
-    background-color:#FCC5A5;
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#maps {
-    width: 960px;
-    display: block;
-    padding: 20px;
-    margin: auto;
-    font-size: 16px;
-    height: 500px;
-    margin-top: 15px; 
-}
-
-
-/*LOGO HEADER*/
+/*--------------------------------------------------------------------------LOGO HEADER-------------------------------------------------------------------*/
 
 #marca img {
     display: block;
@@ -118,22 +70,232 @@ form {
     width: 140px;
 }
 
-/*PROPUESTA ACADEMICA*/
+/*------------------------------------------------------------------------BARRA DE MENU---------------------------------------------------------------------*/
 
-#imagenreposteria img {
-    max-width: 250px;
-    margin: 10px 10px 20px 20px;
-    padding: 10px 10px 30px 20px;
-    position: static;
+.menu {
+    width: 960px;
 }
 
-#academicas {
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    background-color: #e2966a;
+    height: 50px;
+    padding: 20px 10px 10px 10px;
+    position: static;
+    
+}
+
+.navbar ul li {
+    flex: 1 0 auto;
+    width: 24%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+}
+
+.navbar li a {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    text-transform: uppercase;
+}
+
+.navbar li a:hover {
+    color: white;
+}
+
+/*-----------------------------------------------------------------------------INDEX-------------------------------------------------------------------------*/
+
+/*Seccion Noticias*/
+
+#noticias {
     width: 960px;
+    height: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #FCC5A5;
+    margin: auto;
+    padding: 10px 40px 30px 40px;
+}
+
+/*Imagenes y parrafos en articulo egresados*/
+
+#egresados {
+    height: 700px;
+}
+
+/*Articulo Proximas Inscripciones*/
+
+#inscripciones{
+    height: 200px;
+    width: 800px;
+    text-align: center;
     margin: auto;
 }
 
-.carrera1 {
-    display: inline-flex;
+#boton-propuesta-academica{
+    background-color:#FCC5A5;
+    width: 400px;
+    margin: auto; 
+    margin-bottom: 10px;
+    padding: auto;
+    height: 80px;
+}
+
+#texto-boton {
+    font-size: 30px;
+    border-radius: 40px;
+    background-color:#e2966a;
+    box-sizing: border-box;
+    width: 450px;
+    padding: 10px 0px 10px 0px;
+    margin: auto;
+    font-style: italic;
+    text-align: center;
+}
+
+#texto-boton a {
+    text-decoration: none;
+}
+
+#texto-boton :hover {
+    color: rgb(255, 255, 255);
+}
+
+/* Seccion Recetas*/
+
+ #recetas {
+    width: 960px;
+    height: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #FCC5A5;
+    margin: auto;
+    padding: 10px 40px 30px 40px;
+    margin-top: 20px;
+}
+
+/*FLEXBOX*/
+
+.imagen0 {
+    height: auto;
+    width: 750px;
+    margin: 10px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.imagen0 img {
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.tarjeta0 {
+    display: flex;
+    flex-wrap: wrap-reverse; /*se ajustan las cajas al ancho de la ventana, es decir se acomodan hacia cualquier linea*/
+    width: 750px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.tarjeta0 p {
+    text-align: justify;
+    width: 100%;
+}
+
+.imagen {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+}
+
+.imagen img {
+    border: 0;
+    width: 470px;
+    margin: 20px;  
+}
+
+.tarjeta {
+    display: flex;
+    flex-wrap: nowrap; /*se ajustan las cajas al ancho de la ventana, es decir se acomodan hacia cualquier linea*/
+    width: 850px;
+    margin: auto;
+}
+
+/*--------------------------------------------------------------------ACERCA DE NOSOTROS-¿QUIENES SOMOS?--------------------------------------------------------------*/
+
+#contenido-principal {
+    width: 960px;
+    background-color: #FCC5A5;
+    color: black;
+    margin: auto;
+    padding: 10px 40px 30px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#quienes-somos p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#nuestra-filosofia p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#razones p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#img1 {
+    text-align: center;
+    
+}
+
+#img1 img {
+    width: 700px;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+
+#img2 {
+    text-align: center;
+}
+#img2 img {
+    width: 800px;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+
+#img3 {
+    text-align: center;    
+}
+
+#img3 img {
+    width: 800px;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+
+/*-----------------------------------------------------------------------PROPUESTA ACADEMICA-----------------------------------------------------------------*/
+
+#academicas {
+    width: 960px;
+    margin: auto;  
 }
 
 .carreras {
@@ -141,6 +303,13 @@ form {
     background-color:#FCC5A5;
     margin: auto;
     margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px 40px 30px 40px;
+}
+
+.carrera1 {
+    display: inline-flex;
+    flex-wrap: nowrap;
 }
 
 .carrera1 p {
@@ -149,11 +318,19 @@ form {
     margin: 10px 20px 20px 20px;
 }
 
+#imagenreposteria img {
+    max-width: 250px;
+    margin: 10px 10px 20px 20px;
+    padding: 10px 10px 30px 20px;
+    position: static;
+}
+
 #botoninscripcion {
     background-color: white;
     width: 960px;
     margin: auto; 
     margin-bottom: 10px;
+    margin-top: 20px;
     padding: auto;
     height: 60px;
 }
@@ -166,8 +343,12 @@ form {
     width: 350px;
     padding: 10px 0px 10px 0px;
     margin: auto;
-    background-color:chartreuse;
+    background-color:#e2966a;
     height: 60px;
+}
+
+#botoninscripcion a {
+    text-decoration: none;
 }
 
 #botoninscripcion p:hover {
@@ -175,67 +356,78 @@ form {
     color: white;
 }
 
-/*ACERCA DE NOSOTROS*/
 
-#contenido-principal {
+
+/*------------------------------------------------------------------ESTUDIA CON NOSOTROS - FORMULARIO------------------------------------------------------------*/
+
+#formulario { /*seccion*/
     width: 960px;
-    background-color: #FCC5A5;
-    color: black;
+    height: 850px;
     margin: auto;
-    padding: 30px 30px 30px 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+form {
+    display: block;
+    min-width: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+    background-color:#FCC5A5;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#aside {
     box-sizing: border-box;
-    border-radius:10px;
+    padding-left: 10px;
+    width: auto;
+    height: auto;
 }
 
-#quienes-somos {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#aside img {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+#api {
+    width: 960px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#maps {
+    margin: auto;
     font-size: 16px;
-    text-align: justify;
-    margin-bottom: 10px;
+    height: 500px;
+    margin-top: 15px; 
 }
 
-#nuestra-filosogia {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    text-align: justify;
-    margin-bottom: 10px;
-}
-
-#razones {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    text-align: justify;
-    margin-bottom: 10px;
-}
-
-.nosotros {
-    width: 500px;
-}
-
-.mision {
-    width: 500px;
-}
-
-/*LOGO WHATSAPP*/
+/*------------------------------------------------------------------------LOGO WHATSAPP--------------------------------------------------------------------------*/
 #logowpp {
     margin: auto;
 }
 
 #logowpp img {
     width: 50px;
-    
     float: right;
 }
 
-/*FOOTER*/
+/*----------------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
+
 #botonera-footer {
     color: rgb(254, 255, 255);
     background-color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     text-align: justify;
-    width: 960px;
-    
+    width: 960px; 
 }
 
 #datos {
@@ -275,316 +467,172 @@ form {
 @media all and (min-width: 600px) and (max-width: 1023px) {
     /*Copiar y pegar todo lo de arriba, borrar lo que esté repetido 
     de estilo. 
-    Modificar tamaño de width*/
-
-}
-
-/*INDEX SECCION NOTICIAS*/
-#imagen01 {
-    float: left;
-    width: 500px;
-    height: 300px;
-}
-
-#imagen01 img {
-    height: 300px;
-    width: auto;
-}
-
-#parafo01 {
-    width: 500px;
-    height: 300px;
-    box-sizing: border-box;
-    float: right;
+    Modificar tamaño de width*/ 
     
-}
-
-#parrafo01 p {
-    width: auto;
-    height: 300px;
-    font-size: 20px;
-    padding: 20px;
+    header {
+        width: 580px;
+        height: 140px;
+        margin: auto;
+    }
     
+    footer {
+        box-sizing: border-box;
+        width: 580px; 
+        margin: auto;
+        padding: auto;
+    }
+    
+    /*--------------------------------------------------------------------------LOGO HEADER-------------------------------------------------------------------*/
+    
+    #marca img {
+        display: block;
+        width: 40px;
+        margin: auto;
+        position: static;
+        transition: none;
+    }
+    
+    #marca img:hover {
+        width: 40px;
+    }
+    
+    /*------------------------------------------------------------------------BARRA DE MENU---------------------------------------------------------------------*/
+    
+    .menu {
+        width: 580px;
+        height: auto;
+    }
+    
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-around;
+        height: 70px;
+        padding: 20px 10px 10px 10px;
+    }
+    
+    .navbar ul li {
+        flex: 1 0 auto;
+        width: 24%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;  
+    }
+    
+    /*-----------------------------------------------------------------------------INDEX-------------------------------------------------------------------------*/
+    
+    /*Seccion Noticias*/
+    
+    #noticias {
+        width: 580px;
+        height: auto;
+        margin: auto;
+        margin-top: 30px;
+        padding: 10px 40px 30px 40px;
+    }
+    
+    /*Imagenes y parrafos en articulo egresados*/
+    
+    #egresados {
+        height: 700px;
+    }
+    
+    /*Articulo Proximas Inscripciones*/
+    
+    #inscripciones {
+        height: auto;
+        width: 580px;
+        margin: auto;
+    }
+    
+    #boton-propuesta-academica{
+        width: 400px;
+        margin: auto; 
+        margin-bottom: 10px;
+        padding: auto;
+        height: 80px;
+    }
+    
+    #texto-boton {
+        font-size: 30px;
+        width: 450px;
+        padding: 10px 0px 10px 0px;
+        margin: auto;
+    }
+    
+    /* Seccion Recetas*/
+    
+     #recetas {
+        width: 580px;
+        height: auto;
+        margin: auto;
+        padding: 10px 40px 30px 40px;
+        margin-top: 20px;
+    }
+    
+    /*FLEXBOX*/
+    
+    .imagen0 {
+        height: auto;
+        width: 500px;
+        margin: 10px;
+        margin: auto;
+    }
+    
+    .imagen0 img {
+        border: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    
+    .tarjeta0 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 500px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .imagen {
+        height: auto;
+        width: 470px;
+        margin: 0px;
+    }
+    
+    .imagen img {
+        border: 0;
+        width: 100%;
+        margin: 20px;
+        
+    }
+    
+    .tarjeta {
+        display: flex;
+        flex-wrap: wrap-reverse; 
+        width: 500px;
+        margin: auto;
+    }
+    
+    /*----------------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
+    
+    #botonera-footer {
+        font-size: 16px;
+        text-align: justify;
+        width: 580px; 
+    }
+    
+    #datos {
+        padding-left: 20px; 
+        border-radius:10px;
+        padding: 10px 20px 10px 20px;
+        margin: 20px 0px 0px 0px;
+    }
 }
 
-#noticias {
-    width: 960px;
-    height: 1200px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    background-color: #FCC5A5;
-    margin: auto;
-    padding: 40px;
-}
+/*Responsive de celular*/
 
-#egresados {
-    height: 600px;
-}
+@media all and (max-width: 599px) {
 
-#imagen02 {
-    height: 350px;
-    width: 550px;
-    float: left;
-}
-
-#imagen02 img {
-    width: 550px;
-    height: 350px;
-}
-
-#parrafo02 {
-    height: 350px;
-    width: 300px;
-    float: right;
-    box-sizing: border-box;
-}
-
-#parrafo02 p {
-    height: 250px;
-    width: 300px;
-    font-size: 20px;
-}
-
-#inscripciones{
-    height: 200px;
-    width: 800px;
-    text-align: center;   
-}
-/*
-#inscripciones a {
-    font-size: 40px;
-    font-style: oblique;
-    text-decoration:underline;
-    text-align: center;
-}*/
-
-/*INDEX CODIGO VIEJO
-
-#noticias-egresados {
-    width: 960px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    background-color: #FCC5A5;
-    margin: auto;
-    padding: 30px;
-}
-*/
-#recetas {
-    width: 960px;
-    height: 2100px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    background-color: #FCC5A5;
-    margin: auto; /*NO TOCAR */
-    margin-top: 15px;
-    padding: 30px;
-}
-/*
-#subtitulo-receta {
-    font-size: 20px;
-    height: 20px;
-    font-style: oblique;
-    font-weight: bold;
-    color: #9a5329;
-    font-weight: bold;
-    text-align: center;
-}*/
-
-#imagen1 {
-    background-image: url(../img/pizzasintacc.jpg);
-    width: 400px;
-    height: 300px;
-    float: left;
-    margin-top: 20px;
-    background-size: cover;
-}
-
-#parrafo1 {
-    width: 400px;
-    height: 300px;
-    /*margin-bottom: 10px;*/
-    float: right;
-    font-weight: bold;
-}
-
-#parrafo1 p{
-    height: auto;
-    width: auto;
-    font-size: 20px;
-}
-
-/*
-#presentacion {
-    padding: 10px;
-    padding-right: 10px;
-}
-
-#texto-contenido {
-    width: 400px ;
-    height: 300px;
-    background-color: #FCC5A5;
-    float:center;
-    font-weight: bold;
-    padding: 10px;
-}
-
-#recetas-celiacas{
-    width: 900px ;
-    height: 600px;
-}*/
-
-#imagen2{
-    width: 400px;
-    height: 300px;
-    background-image: url(../img/cebollasmoradasrellenas.jpg);
-    background-size: cover;
-    float: left;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-#parrafo2 {
-    height: 270px;
-    width: 400px;
-    float: right;
-    font-weight: bold;
-    float: center;
-    text-align: justify;
-}
-
-#parrafo2 p{
-   height: 300px;
-   width: 400px;
-   font-size: 15px;
-}  
-
-#saludables{
-    height: 650px;
-}
-
-#imagen3 {
-    background-image: url(../img/saludables3.jpg);
-    background-size: cover;
-    height: 300px;
-    width: 400px;
-    float: left;
-    /*margin-bottom: 15px;
-    padding: 10px;*/
-}
-
-#imagen3 img {
-    width: 500px;
-    height: 300px;
-}
-
-#parrafo3 {
-    height: 270px;
-    width: 400px;
-    float: right;
-    box-sizing: border-box;
-    font-weight: bold;
-}
-
-#parrafo3 p{
-    height: auto;
-    width: 300px;
-    font-size: 20px;    
-}
-
-
-#imagen4{
-    height: 300px;
-    width: 400px;
-    background-image: url(../img/saludables2.jpg);
-    background-size: cover;
-    float: left;
-    margin-top: 15px;
-    /*padding: 10px;*/    
-}
-
-#imagen4 img {
-    width: 400px;
-    height: 300px;
-}
-
-#parrafo4 {
-    font-size: 15px;
-    width: 400px;
-    height: 300px;
-    font-weight: bold;
-    margin-top: 40px;
-    float: right;
-}
-
-#imagen5 {
-    background-image: url(../img/faciles2.jpg);
-    width: 400px;
-    height: 300px;
-    float: left;
-    margin-top: 15px;
-    background-size: cover;
-}
-
-#parrafo5 {
-    font-size: 15px;
-    float: right;
-    margin-top: 30px;
-    width: 400px;
-    height: 300px;
-    font-weight: bold;
-}
-
-#imagen6 {
-    background-image: url(../img/faciles3.jpg);
-    width: 400px;
-    height: 300px;
-    float: left;
-    background-size: cover;
-    margin-top: 20px;
-}
-
-#parrafo6 {
-    font-size: 15px;
-    width: 400px;
-    height: 220px;
-    font-weight: bold;
-    float: right;
-}
-#texto-final{
-    height: 200px;
-    width: 800px;
-    text-align: center;
-    font-size: 30px;
-    font-style: oblique;
-    text-decoration:underline;
-    text-align: center;
-}
-
-#boton-propuesta-academica{
-    background-color:#FCC5A5;
-    width: 400px;
-    margin: auto; 
-    margin-bottom: 10px;
-    padding: auto;
-    height: 80px;
-}
-
-#texto-boton{
-    font-size: 40px;
-    border-radius: 30px;
-    background-color:rgb(217, 117, 10);
-    box-sizing: border-box;
-    width: 450px;
-    padding: 10px 0px 10px 0px;
-    margin: auto;
-    font-style: oblique;
-    text-align: center;
-}
-
-#texto-boton a{
-    color: rgb(132, 0, 0);
-}
-
-#texto-boton :hover{
-    color: rgb(0, 0, 0);
 }
