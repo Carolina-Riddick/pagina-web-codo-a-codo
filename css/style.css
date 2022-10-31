@@ -395,6 +395,12 @@ form {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#texto-form {
+    width: 300px;
+    font-size: 14px;
+    text-align: justify;
+}
+
 #aside {
     box-sizing: border-box;
     padding-left: 10px;
