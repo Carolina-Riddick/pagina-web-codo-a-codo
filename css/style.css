@@ -16,23 +16,25 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     margin: 0px;
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 10px 0px;
 }
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0px 20px 0px 20px;
-    padding: 20px 20px 10px 20px;
+    margin: 0px 20px 0px 00px;
+    padding: 20px 20px 10px 0px;
     text-align: left;
 }
 
 h3 {
     font-family: sans-serif;
-    font-size: x-large;
+    font-size: 35px;
     color: rgb(180, 92, 70);
     font-weight: bold;
     text-align: center;
-    text-decoration:underline;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 h4 {
@@ -46,8 +48,6 @@ p {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
 
 footer {
     box-sizing: border-box;
@@ -63,11 +63,6 @@ footer {
     width: 90px;
     margin: auto;
     position: static;
-    transition: width 2s;
-}
-
-#marca img:hover {
-    width: 140px;
 }
 
 /*------------------------------------------------------------------------BARRA DE MENU---------------------------------------------------------------------*/
@@ -217,7 +212,7 @@ footer {
 
 .imagen img {
     border: 0;
-    width: 470px;
+    width: 370px;
     margin: 20px;  
 }
 
@@ -226,6 +221,10 @@ footer {
     flex-wrap: nowrap; /*se ajustan las cajas al ancho de la ventana, es decir se acomodan hacia cualquier linea*/
     width: 850px;
     margin: auto;
+}
+
+.tarjeta p {
+    text-align: justify;
 }
 
 /*--------------------------------------------------------------------ACERCA DE NOSOTROS-¿QUIENES SOMOS?--------------------------------------------------------------*/
@@ -288,6 +287,11 @@ footer {
 #img3 img {
     width: 800px;
     border-radius: 40px;
+    padding-top: 20px;
+}
+
+#video {
+    margin: auto;
     padding-top: 20px;
 }
 
@@ -410,13 +414,28 @@ form {
 }
 
 /*------------------------------------------------------------------------LOGO WHATSAPP--------------------------------------------------------------------------*/
-#logowpp {
-    margin: auto;
+
+.logowpp {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px; 
 }
 
-#logowpp img {
-    width: 50px;
-    float: right;
+.logowpp img {
+    width: 60px;
+    height: auto;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    text-align: center;
+    z-index: 100;
+    transition: width 2s;
+}
+
+.logowpp img:hover {
+    width: 80px;
 }
 
 /*----------------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
@@ -489,12 +508,8 @@ form {
         width: 40px;
         margin: auto;
         position: static;
-        transition: none;
     }
     
-    #marca img:hover {
-        width: 40px;
-    }
     
     /*------------------------------------------------------------------------BARRA DE MENU---------------------------------------------------------------------*/
     
@@ -636,70 +651,85 @@ form {
 @media all and (max-width: 599px) {
 
     header {
-        width: 599px;
+        width: 90%;
         height: auto;
     }
     
     footer {
         box-sizing: border-box;
-        width: 599px; 
+        width: 100%; 
     }
+
+    
+h1 {
+    font-size: 21px;
+    
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 21px;
+}
     
     /*--------------------------------------------------------------------------LOGO HEADER-------------------------------------------------------------------*/
-
+    
     #marca img {
-        float: none;
-        padding: 10px;
-        box-sizing: border-box;
         display: block;
-        width: 100px;
+        width: 50px;
         margin: auto;
+        position: static;
+        transition: none;
     }
     
     #marca img:hover {
-        width: 40px;
+        width: 50px;
     }
-    
+  
     /*------------------------------------------------------------------------BARRA DE MENU---------------------------------------------------------------------*/
     
     .menu {
-        width: 599px;
+        width: 100%;
         height: auto;
-        float: none;
     }
     
     .navbar ul {
-        float: none;
-        height:auto;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 10px 10px 10px;
     }
     
     .navbar ul li {
         display: block;
-        width: 400px;
         text-align: center;
-        margin-bottom: 10px;
-        margin-top: 10px;  
+        width: 100%;
     }
-
-    .navbar ul li a{
+    
+    .navbar li a {
         display: block;
-        width: 599px;
-        padding: 10px;
-        margin-bottom: 5px;
+        width: 100%;
         text-align: center;
+    }
+    
+    .navbar li a:hover {
+        color: white;
     }
     
     /*-----------------------------------------------------------------------------INDEX-------------------------------------------------------------------------*/
     /*Seccion Noticias*/
     
     #noticias {
-        width: 599px;
+        width: 100%;
         height: auto;
-    }
-    
+        margin: auto;
+    } 
     /*Imagenes y parrafos en articulo egresados*/
     
     #egresados {
+        width: 100%;
         height: auto;
     }
     
@@ -707,7 +737,7 @@ form {
     
     #inscripciones {
         height: auto;
-        width: 599px;
+        width: 100%;
         margin: auto;
     }
     
@@ -728,7 +758,7 @@ form {
     /* Seccion Recetas*/
     
      #recetas {
-        width: 599px;
+        width: 100%;
         height: auto;
     }
     
@@ -747,25 +777,37 @@ form {
     .tarjeta0 {
         display: flex;
         flex-wrap: wrap-reverse;
-        width: 500px;
+        width: 100%;
         margin: auto;
         padding-bottom: 20px;
     }
 
+    .tarjeta0 p {
+        width: 100%;
+        height: auto;
+    }
+
     .imagen {
         height: auto;
-        width: 300px;
+        width: 100%;
     }
     
     .imagen img {
         width: 100%;
-        margin: 20px;    
+        height: auto;
+        margin: 10px;
+        margin: 0;
     }
     
     .tarjeta {
-        display: block;
-        width: 300px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 100%;
         margin: auto;
+    }
+
+    .tarjeta p {
+        width: 100%;
     }
     
     /*----------------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
@@ -773,7 +815,7 @@ form {
     #botonera-footer {
         font-size: 16px;
         text-align: justify;
-        width: 599px; 
+        width: 100%; 
     }
     
     #datos {
