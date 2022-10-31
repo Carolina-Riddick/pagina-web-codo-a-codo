@@ -5,28 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../js/datosFormulario.js"></script>
-
     <link rel="stylesheet" href="../css/style.css">
     <title>Inscribite</title>
 </head>
 <body>     
     <header>
         <div id="marca">
-            <img src="../img/icono.png" alt="logo de la empresa">
+            <img id="logo1" src="../img/icono.png" alt="logo de la empresa">
+            <img id="logo2" src="../img/logococina.png" alt="logo de la empresa">
         </div>
-    
-    <section class="menu">
-        <nav class="navbar">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/acercaDeNosotros.html">Acerca de nosotros</a></li>
-                <li><a href="../pages/propuestaAcademica.html">Propuesta Academica</a></li>
-                <li><a href="../pages/estudiaConNosotros.html">Estudia con nosotros</a></li>
-            </ul>
-        </nav>
-    </section>
-
-    </header>
+        <section class="menu">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/acercaDeNosotros.html">Acerca de nosotros</a></li>
+                    <li><a href="../pages/propuestaAcademica.html">Propuesta Academica</a></li>
+                    <li><a href="../pages/estudiaConNosotros.html">Estudia con nosotros</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header> 
    
     <section id="formulario">
     <form action="#">
@@ -49,7 +47,7 @@
         <input type="email" id="email" name="Email" placeholder="Ingrese su Email">
         <br><br>
         <label for="curso"><b>Seleccionar Curso:</b></label><br><br>
-        <select name="curso" id="curso" size="3">
+        <select name="curso" id="curso" size="1">
             <option value="1">Panaderia Nivel Principiante</option> 
             <br><br>
             <option value="2">Cocteleria</option>
@@ -62,12 +60,13 @@
         </select>  
         <br><br>
         <label for="turno"> <b>Seleccionar Turno:</b> </label><br><br>
-        <select name="Turno" id="Turno" size="2">
+        <select name="Turno" id="Turno" size="1">
             <option value="1">Mañana</option> 
             <br>
             <option value="2">Tarde</option>
         </select>               
         <br> <br>
+        <p id="texto-form">Si ya ha estudiado en nuestra institución, por favor indique en el cuadro de abajo.</p>
         <label for="Comentarios"><b>Ingrese su consulta:</b> </label> <br><br>
         <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Escriba aqui su consulta.."></textarea>
         <br><br>
@@ -107,7 +106,7 @@
             </div>
     </div>   
 </footer>
-<div id="logowpp">
-    <img src="../img/ico/whatsapp.png" alt="Icono Whatsapp">
-</div>
+<div class="logowpp">
+    <a href="https://api.whatsapp.com/send?phone=542996748781" target="_blank"><img src="../img/ico/whatsapp.png" alt="Icono Whatsapp"></a>  
+</div> 
 </html>
